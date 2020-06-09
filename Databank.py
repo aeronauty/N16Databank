@@ -25,7 +25,7 @@ import numpy as np
 import csv
 
 # Load the databank in from the .dat file
-datafile = open('N16TABLE.dat', 'r')
+datafile = open('../N16Databank/N16TABLE.dat', 'r')
 datareader = csv.reader(datafile)
 databanks = [] # Empty list to put our databanks in
 for row in datareader:
